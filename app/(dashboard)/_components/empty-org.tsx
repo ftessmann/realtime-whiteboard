@@ -26,7 +26,7 @@ export const EmptyOrg = () => {
                 Create an organization to get started
             </p>
             <div className="mt-6">
-
+                
                 <Dialog> 
 
                     <DialogTrigger asChild>
