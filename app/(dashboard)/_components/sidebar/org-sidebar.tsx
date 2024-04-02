@@ -32,7 +32,8 @@ export const OrgSidebar = () => {
                     width={60}
                 />
                 <span className={cn(
-                    "font-semibold text-2xl"
+                    "font-semibold text-2xl text-black",
+                    font.className,
                 )}>
                     Board
                 </span>
