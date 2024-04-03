@@ -24,7 +24,6 @@ const Cursors = () => {
 export const CursorsPresence = memo(() => {
     return (
         <>
-            // TODO: Pencil cursors //
             <Cursors />
         </>
     );

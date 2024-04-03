@@ -11,7 +11,7 @@ interface DashboardPageProps {
     };
 };
 
-const dashboardPage = ({
+const DashboardPage = ({
     searchParams,
     }: DashboardPageProps) => {
         const { organization } = useOrganization();
@@ -33,4 +33,4 @@ const dashboardPage = ({
     );
 };
 
-export default dashboardPage;
+export default DashboardPage;
